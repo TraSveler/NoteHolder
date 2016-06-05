@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <Switch
+        android:id="@+id/switchT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Toasts" />
+
+    <Switch
+        android:id="@+id/switchA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Authors" />
+
+    <Switch
+        android:id="@+id/switchS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change note text size" />
+
+    <Switch
+        android:id="@+id/switchF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hide Fab" />
+
+    <Switch
+        android:id="@+id/switchD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hide Data" />
+
+    <Switch
+        android:id="@+id/switchR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Read only mode" />
+
+    <Switch
+        android:id="@+id/switchO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Offline mode" />
+</LinearLayout>
